@@ -1,0 +1,149 @@
+body {
+	font-family: Georgia;
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+p {
+	color: white;
+	font-size: 32px;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	background-color: black;
+}
+
+.header {
+	background-color: black;
+	opacity: 75%;
+	text-align: center;
+	color: white;
+	padding: 16px;
+	font-family: Georgia;
+	font-size: 48px;
+
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	font-size: 24px;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: orange;
+
+}
+
+.active {
+	background-color: red;
+}
+
+
+.sugestii {
+	background-color: yellow;
+	position: absolute;
+	left: 300px;
+	border: 1px solid black;
+}
+
+.greseli {
+	background-color: red;
+	position: absolute;
+	right: 300px;
+	border: 1px solid black;
+}
+
+button {
+	cursor: pointer;
+}
+
+textarea {
+	width:600px;
+	height:300px;
+	font-size: 24px
+	
+}
+
+input {
+	width:300px;
+	height:30px;
+	font-size: 24px;
+	
+}
+
+button {
+	width: 200px;
+	height: 100px;
+	font-size: 30px;
+	font-family: Georgia;
+	color: white;
+	background-color: black;
+}
+
+label {
+	color:black;
+}
+
+.sica {
+	position: absolute;
+	right: 120px;
+}
+
+.robert {
+	position: absolute;
+	right: 512px;
+	
+}
+
+.silencer {
+	position: relative;
+	bottom: 110px;
+	left: -240px;
+
+}
+
+.sicaurzica {
+	position: relative;
+	bottom: 110px;
+	left: 960px;
+
+}
+
+
+
+
+.footer {
+	background-color: black;
+	width: 100%;
+	opacity: 75%;
+	text-align: center;
+	color: white;
+	padding: 16px;
+	font-family: Georgia;
+	font-size: 12px;
+	position: absolute;
+	top: 1440px;
+}
