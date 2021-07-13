@@ -1,6 +1,6 @@
 body {
 	font-family: Georgia;
-	background-image: url("bg.jpg");
+	background-image: url("bg.gif");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -62,19 +62,9 @@ li a:hover {
 }
 
 
-.sugestii {
-	background-color: yellow;
-	position: absolute;
-	left: 300px;
-	border: 1px solid black;
-}
 
-.greseli {
-	background-color: red;
-	position: absolute;
-	right: 300px;
-	border: 1px solid black;
-}
+
+
 
 button {
 	cursor: pointer;
@@ -107,30 +97,6 @@ label {
 	color:black;
 }
 
-.sica {
-	position: absolute;
-	right: 120px;
-}
-
-.robert {
-	position: absolute;
-	right: 512px;
-	
-}
-
-.silencer {
-	position: relative;
-	bottom: 110px;
-	left: -240px;
-
-}
-
-.sicaurzica {
-	position: relative;
-	bottom: 110px;
-	left: 960px;
-
-}
 
 
 
